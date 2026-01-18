@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid lightgrey;
+     margin: 10px;
+    text-align: center;
+     font-size: 20px;
+}
+
+.trace {
+   background-color: olive;
+    color: white;
+     border: 1px solid lightgrey;
+}
+
+.cofe {
+    background-color: olive;
+    color: white;
+    border: 1px solid lightgrey;
+    padding: 0px;
+    border: 1px solid lightgrey;
+}
+
+.whi {
+    background-color: white; 
+    color: black;
+     padding: 5px;
+     border: 1px solid lightgrey;
+}
