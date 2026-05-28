@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, yellow, orange, red );
+}
+
+.hobby {
+    border: 2px solid white ;
+}
+
+.hobby:hover{
+    border: 2px solid black ;
+    transition-property: border, color;
+    transition-duration: 0.5s;
+}
+
+.link-header {
+    border: 2px solid white ;
+    color: black;
+}
+
+.link-nav {
+    border: 2px solid white ;
+    color: black;
+}
+
+.link-nav:hover {
+    border: 2px solid black ;
+    transition-property: border, color;
+    transition-duration: 0.5s;
+}
+
+.link-header:hover {
+    border: 2px solid black ;
+    transition-property: border, color;
+    transition-duration: 0.5s;
+}
+
+.img:hover {
+    border: 2px solid black ;
+}
+
+.img {
+    border: 2px solid white ;
+    transition-property: border, color;
+    transition-duration: 0.5s;
+}
