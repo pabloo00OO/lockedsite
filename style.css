@@ -1,0 +1,8 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, yellow, orange, red);
+}
+
+.li {
+    font-size: 18px
+}
