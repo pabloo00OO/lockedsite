@@ -1,53 +1,46 @@
 body {
     font-family: sans-serif;
-    background-color: chartreuse;
+    background-image: linear-gradient(to bottom, yellow, orange, red );
 }
 
-header {
-    padding: 15px;
-    margin: 5px;
+.hobby {
+    border: 2px solid white ;
 }
 
-h1 {
-    font-size: 50px;
-    text-align: center;
-}
-
-.head_img {
-    display: block;
-    margin: 0 auto 0 auto;
-}
-
-h2 {
-    color: green;
-    margin-left: 100px;
-    font-size: 30px;
-    font-family: cursive;
+.hobby:hover{
+    border: 2px solid black ;
+    transition-property: border, color;
+    transition-duration: 0.5s;
 }
 
 .link-header {
-    background-color: rgb(140, 0, 255);
-    padding: 40px;
-    margin: 10px;
+    border: 2px solid white ;
     color: black;
-    border-radius: 15px;
-    float: left;
 }
 
-footer {
-    color: teal;
-    padding: 10px;
-    font-size: 20px;
+.link-nav {
+    border: 2px solid white ;
+    color: black;
+}
+
+.link-nav:hover {
+    border: 2px solid black ;
+    transition-property: border, color;
+    transition-duration: 0.5s;
 }
 
 .link-header:hover {
-    background-color: rgb(67, 67, 67);
-    color: white;
-    transition: background-color 0.67s;
+    border: 2px solid black ;
+    transition-property: border, color;
+    transition-duration: 0.5s;
 }
 
+.img:hover {
+    border: 2px solid black ;
+}
 
-.link-text:hover {
-    color: orange;
-    transition: color 0.67s;
+.img {
+    border: 2px solid white ;
+    transition-property: border, color;
+    transition-duration: 0.5s;
 }
